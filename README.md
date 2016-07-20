@@ -1,3 +1,5 @@
+ [![Build Status](https://travis-ci.org/Aconex/searchable-table.svg)](https://travis-ci.org/Aconex/searchable-table)
+
 # searchable-table
 
 Create search capability on HTML tables
