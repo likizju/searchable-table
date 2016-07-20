@@ -1,0 +1,38 @@
+{
+  "name": "searchable-table",
+  "title": "Searchable Table",
+  "description": "Create search capability on HTML tables",
+  "keywords": [
+    "search",
+    "searchable",
+    "filter",
+    "table"
+  ],
+  "version": "0.0.1",
+  "author": {
+    "name": "Marcelo Garcia de Oliveira",
+    "url": "https://github.com/marcelogo"
+  },
+  "maintainers": [
+    {
+      "name": "Marcelo Garcia de Oliveira",
+      "email": "moliveira@aconex.com"
+    },
+    {
+      "name": "Xiaojun Ren",
+      "email": "nicholas.x.ren@gmail.com"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Aconex/searchable-table/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bugs": "https://github.com/Aconex/searchable-table/issues",
+  "docs": "https://github.com/Aconex/searchable-table",
+  "download": "https://github.com/Aconex/searchable-table",
+  "dependencies": {
+    "jquery": ">=1.5"
+  }
+}
