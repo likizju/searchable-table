@@ -1,22 +1,21 @@
 {
-  "name": "grunt-contrib-jasmine-example",
-  "description": "Example application using grunt-contrib-jasmine",
+  "name": "Searchable Tables",
+  "description": "JQuery plugin to add search capability to HTML tables",
   "version": "0.0.2",
-  "homepage": "https://github.com/jsoverson/grunt-contrib-jasmine-example",
+  "homepage": "https://github.com/Aconex/searchable-table",
   "author": {
-    "name": "Jarrod Overson",
-    "email": "jsoverson@gmail.com",
-    "url": "http://jarrodoverson.com/"
+    "name": "Marcelo Garcia",
+    "email": "moliveira@aconex.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jsoverson/grunt-contrib-jasmine-example.git"
+    "url": "https://github.com/Aconex/searchable-table.git"
   },
   "scripts": {
     "test": "grunt test"
   },
   "bugs": {
-    "url": "https://github.com/jsoverson/grunt-contrib-jasmine-example/issues"
+    "url": "https://github.com/Aconex/searchable-table/issues"
   },
   "devDependencies": {
     "grunt": "~0.4.0",
