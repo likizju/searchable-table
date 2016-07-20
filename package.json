@@ -1,7 +1,7 @@
 {
   "name": "Searchable Tables",
   "description": "JQuery plugin to add search capability to HTML tables",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/Aconex/searchable-table",
   "author": {
     "name": "Marcelo Garcia",

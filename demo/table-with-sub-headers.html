@@ -1,0 +1,54 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+    <script src='../src/searchable-table.js'></script>
+    <script>
+        $().ready(function(){
+            $("table").toSearchable();
+        });
+    </script>
+</head>
+<body>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Car</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="success searchable-fixed-row">
+            <td colspan="2">Toyota</td>
+        </tr>
+        <tr class="item">
+            <td>Corolla</td>
+            <td>$15</td>
+        </tr>
+        <tr class="item">
+            <td>Yaris</td>
+            <td>$10</td>
+        </tr>
+        <tr class="item">
+            <td>Prius c i-Tech</td>
+            <td>$55</td>
+        </tr>
+        <tr class="success searchable-fixed-row">
+            <td colspan="2">Ford</td>
+        </tr>
+        <tr class="item">
+            <td>Fiesta </td>
+            <td>$35</td>
+        </tr>
+        <tr class="item">
+            <td>Focus</td>
+            <td>$18</td>
+        </tr>
+        <tr class="item">
+            <td>Falcon FG X 7</td>
+            <td>$45</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

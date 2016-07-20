@@ -8,7 +8,7 @@ describe("Searchable Table with Sub Headers", function () {
 
     describe("enabled", function () {
         beforeEach(function () {
-            $("table").enabled();
+            $("table").toSearchable();
         });
 
         it("should filter with header text return empty result", function () {

@@ -1,5 +1,5 @@
 'use strict';
-jQuery.fn.enabled = function (customConfig) {
+jQuery.fn.toSearchable = function (customConfig) {
 
     var defaults = {
         headerTRStyle: "",
@@ -126,10 +126,8 @@ jQuery.fn.enabled = function (customConfig) {
     function getFilters() {
         var filters = {};
         filters.supersearch = getCleanUpText($.trim($('input.searchable-general-filter').val()));
-        table.find('thead tr:nth-child(2) th').each(function (i, column) {
-            if ($(column).hasClass(SEARCHABLE_COLUMN_CLASS)) {
-                filters[i] = getCleanUpText($(column).find('input.searchable-column-filter').val());
-            }
+        table.find('thead tr th.' + SEARCHABLE_COLUMN_CLASS).each(function (i, column) {
+            filters[i] = getCleanUpText($(column).find('input.searchable-column-filter').val());
         });
         return filters;
     }

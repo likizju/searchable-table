@@ -1,0 +1,36 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+    <script src='../src/searchable-table.js'></script>
+    <script>
+        $().ready(function(){
+            $("table").toSearchable();
+        });
+    </script>
+</head>
+<body>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Fruit</th>
+            <th>Color</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Banana</td>
+            <td>Yellow</td>
+        </tr>
+        <tr>
+            <td>Watermelon</td>
+            <td>Red</td>
+        </tr>
+        <tr>
+            <td>Grape</td>
+            <td>Purple</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

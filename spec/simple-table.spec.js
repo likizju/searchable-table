@@ -8,7 +8,7 @@ describe("Searchable Table", function () {
 
     describe("enabled", function () {
         beforeEach(function () {
-            $("table").enabled();
+            $("table").toSearchable();
         });
 
         it("should add a filter input", function () {
