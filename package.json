@@ -1,7 +1,7 @@
 {
   "name": "grunt-contrib-jasmine-example",
   "description": "Example application using grunt-contrib-jasmine",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/jsoverson/grunt-contrib-jasmine-example",
   "author": {
     "name": "Jarrod Overson",
