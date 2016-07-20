@@ -1,5 +1,5 @@
 {
-  "name": "Searchable Tables",
+  "name": "searchable-table",
   "description": "JQuery plugin to add search capability to HTML tables",
   "version": "0.0.3",
   "homepage": "https://github.com/Aconex/searchable-table",
@@ -17,6 +17,13 @@
   "bugs": {
     "url": "https://github.com/Aconex/searchable-table/issues"
   },
+  "keywords": [
+    "search",
+    "searchable",
+    "filter",
+    "table",
+    "jquery-plugin"
+  ],
   "devDependencies": {
     "grunt": "~0.4.0",
     "grunt-contrib-jasmine": "~0.4.0",
